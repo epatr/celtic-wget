@@ -1,0 +1,38 @@
+
+@media print {
+
+	* {
+		position:relative;
+		margin: 0;
+	}
+   h1 {
+      color: #000;
+      background: none;
+   }
+
+   nav, aside,.social-wrap,.offcanvas-trigger,.pager,#search,.moduletable,#socialicons,
+   .panel-trigger,#menu {
+      display: none;
+   }
+   
+   #logo .moduletable,
+   #footer .moduletable {
+   		display: block !important;
+   }
+
+   body, article {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+   
+   .zen-spotlight {
+   		padding: 0 !important;
+   		border: 0 !important;
+   		box-shadow: none !important;
+   }
+
+   @page {
+      margin: 2cm;
+   }
+}
